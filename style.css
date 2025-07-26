@@ -29,28 +29,28 @@ body, html {
 /* Se um link está muito ALTO, AUMENTE o valor de "top" para ele DESCER. */
 
 #link-londrina {
-    top: 47%;     /* Estava 39%. Aumente se precisar descer mais. */
+    top: 53%;     /* Estava 39%. Aumente se precisar descer mais. */
     left: 25%;    
     width: 50%;   
     height: 9%;   
 }
 
 #link-maringa {
-    top: 58%;    /* Estava 50%. Aumente se precisar descer mais. */
+    top: 64%;    /* Estava 50%. Aumente se precisar descer mais. */
     left: 25%;
     width: 50%;
     height: 9%;
 }
 
 #link-cornelio {
-    top: 69%;    /* Estava 61%. Aumente se precisar descer mais. */
+    top: 75%;    /* Estava 61%. Aumente se precisar descer mais. */
     left: 25%;
     width: 50%;
     height: 9%;
 }
 
 #link-contato {
-    top: 80%;    /* Estava 72%. Aumente se precisar descer mais. */
+    top: 86%;    /* Estava 72%. Aumente se precisar descer mais. */
     left: 25%;
     width: 50%;
     height: 9%;
