@@ -3,53 +3,54 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: #f0f0f0; /* Cor de fundo caso a imagem demore a carregar */
+    background-color: #f0f0f0; 
 }
 
 .container {
     width: 100%;
-    max-width: 600px; /* Largura máxima da imagem no site */
+    max-width: 600px; 
     height: auto;
-    aspect-ratio: 1080 / 1920; /* Proporção da imagem (ex: story de Instagram) */
+    aspect-ratio: 1080 / 1920; 
     background-image: url('background.png');
     background-size: cover;
     background-position: center;
-    position: relative; /* Essencial para posicionar os links */
+    position: relative;
     margin: auto;
 }
 
 .link {
-    position: absolute; /* Permite posicionar o link com precisão */
+    position: absolute;
     display: block;
-    /* Descomente a linha abaixo para ver as áreas clicáveis durante o ajuste */
-    /* background-color: rgba(255, 0, 0, 0.5); */
+    /* ESTA LINHA ABAIXO DEIXA AS ÁREAS VERMELHAS PARA FACILITAR O AJUSTE */
+    background-color: rgba(255, 0, 0, 0.4); 
 }
 
-/* --- AJUSTE AS POSIÇÕES E TAMANHOS ABAIXO SE NECESSÁRIO --- */
+/* --- AJUSTE OS VALORES DE "top" ABAIXO --- */
+/* Se um link está muito ALTO, AUMENTE o valor de "top" para ele DESCER. */
 
 #link-londrina {
-    top: 39%;     /* Distância do topo */
-    left: 25%;    /* Distância da esquerda */
-    width: 50%;   /* Largura da área clicável */
-    height: 9%;   /* Altura da área clicável */
+    top: 42%;     /* Estava 39%. Aumente se precisar descer mais. */
+    left: 25%;    
+    width: 50%;   
+    height: 9%;   
 }
 
 #link-maringa {
-    top: 50%;
+    top: 53%;    /* Estava 50%. Aumente se precisar descer mais. */
     left: 25%;
     width: 50%;
     height: 9%;
 }
 
 #link-cornelio {
-    top: 61%;
+    top: 64%;    /* Estava 61%. Aumente se precisar descer mais. */
     left: 25%;
     width: 50%;
     height: 9%;
 }
 
 #link-contato {
-    top: 72%;
+    top: 75%;    /* Estava 72%. Aumente se precisar descer mais. */
     left: 25%;
     width: 50%;
     height: 9%;
