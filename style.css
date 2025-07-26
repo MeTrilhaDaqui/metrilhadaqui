@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0; /* Cor de fundo caso a imagem demore a carregar */
+}
+
+.container {
+    width: 100%;
+    max-width: 600px; /* Largura máxima da imagem no site */
+    height: auto;
+    aspect-ratio: 1080 / 1920; /* Proporção da imagem (ex: story de Instagram) */
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Essencial para posicionar os links */
+    margin: auto;
+}
+
+.link {
+    position: absolute; /* Permite posicionar o link com precisão */
+    display: block;
+    /* Descomente a linha abaixo para ver as áreas clicáveis durante o ajuste */
+    /* background-color: rgba(255, 0, 0, 0.5); */
+}
+
+/* --- AJUSTE AS POSIÇÕES E TAMANHOS ABAIXO SE NECESSÁRIO --- */
+
+#link-londrina {
+    top: 39%;     /* Distância do topo */
+    left: 25%;    /* Distância da esquerda */
+    width: 50%;   /* Largura da área clicável */
+    height: 9%;   /* Altura da área clicável */
+}
+
+#link-maringa {
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 9%;
+}
+
+#link-cornelio {
+    top: 61%;
+    left: 25%;
+    width: 50%;
+    height: 9%;
+}
+
+#link-contato {
+    top: 72%;
+    left: 25%;
+    width: 50%;
+    height: 9%;
+}
