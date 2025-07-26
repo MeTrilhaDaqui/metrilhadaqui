@@ -21,37 +21,38 @@ body, html {
 .link {
     position: absolute;
     display: block;
-    /* ESTA LINHA ABAIXO DEIXA AS ÁREAS VERMELHAS PARA FACILITAR O AJUSTE */
+    /* A área vermelha ainda está ativa para você ver a mudança na largura */
     background-color: rgba(255, 0, 0, 0.4); 
 }
 
-/* --- AJUSTE OS VALORES DE "top" ABAIXO --- */
-/* Se um link está muito ALTO, AUMENTE o valor de "top" para ele DESCER. */
+
+/* --- AJUSTE DE LARGURA --- */
+/* Aumentamos a 'width' para 60% e diminuímos a 'left' para 20% em todos os links */
 
 #link-londrina {
-    top: 53%;     /* Estava 39%. Aumente se precisar descer mais. */
-    left: 25%;    
-    width: 50%;   
-    height: 9%;   
+    top: 53%;
+    left: 20%;   /* <-- MUDOU */
+    width: 60%;  /* <-- MUDOU */
+    height: 9%;
 }
 
 #link-maringa {
-    top: 64%;    /* Estava 50%. Aumente se precisar descer mais. */
-    left: 25%;
-    width: 50%;
+    top: 64%;
+    left: 20%;   /* <-- MUDOU */
+    width: 60%;  /* <-- MUDOU */
     height: 9%;
 }
 
 #link-cornelio {
-    top: 75%;    /* Estava 61%. Aumente se precisar descer mais. */
-    left: 25%;
-    width: 50%;
+    top: 75%;
+    left: 20%;   /* <-- MUDOU */
+    width: 60%;  /* <-- MUDOU */
     height: 9%;
 }
 
 #link-contato {
-    top: 86%;    /* Estava 72%. Aumente se precisar descer mais. */
-    left: 25%;
-    width: 50%;
+    top: 86%;
+    left: 20%;   /* <-- MUDOU */
+    width: 60%;  /* <-- MUDOU */
     height: 9%;
 }
