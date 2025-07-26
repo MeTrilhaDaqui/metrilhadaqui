@@ -27,32 +27,32 @@ body, html {
 
 
 /* --- AJUSTE DE LARGURA --- */
-/* Aumentamos a 'width' para 60% e diminuímos a 'left' para 20% em todos os links */
+/* Aumentamos a 'width' para 70% e diminuímos a 'left' para 15% */
 
 #link-londrina {
     top: 53%;
-    left: 20%;   /* <-- MUDOU */
-    width: 60%;  /* <-- MUDOU */
+    left: 15%;   /* <-- MUDOU DE NOVO */
+    width: 70%;  /* <-- MUDOU DE NOVO */
     height: 9%;
 }
 
 #link-maringa {
     top: 64%;
-    left: 20%;   /* <-- MUDOU */
-    width: 60%;  /* <-- MUDOU */
+    left: 15%;   /* <-- MUDOU DE NOVO */
+    width: 70%;  /* <-- MUDOU DE NOVO */
     height: 9%;
 }
 
 #link-cornelio {
     top: 75%;
-    left: 20%;   /* <-- MUDOU */
-    width: 60%;  /* <-- MUDOU */
+    left: 15%;   /* <-- MUDOU DE NOVO */
+    width: 70%;  /* <-- MUDOU DE NOVO */
     height: 9%;
 }
 
 #link-contato {
     top: 86%;
-    left: 20%;   /* <-- MUDOU */
-    width: 60%;  /* <-- MUDOU */
+    left: 15%;   /* <-- MUDOU DE NOVO */
+    width: 70%;  /* <-- MUDOU DE NOVO */
     height: 9%;
 }
