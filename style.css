@@ -21,38 +21,37 @@ body, html {
 .link {
     position: absolute;
     display: block;
-    /* A área vermelha ainda está ativa para você ver a mudança na largura */
-    background-color: rgba(255, 0, 0, 0.4); 
+    /* A linha abaixo foi "comentada" para remover as caixas vermelhas */
+    /* background-color: rgba(255, 0, 0, 0.4); */
 }
 
 
-/* --- AJUSTE DE LARGURA --- */
-/* Aumentamos a 'width' para 70% e diminuímos a 'left' para 15% */
+/* --- Versão Final do Posicionamento e Largura --- */
 
 #link-londrina {
     top: 53%;
-    left: 15%;   /* <-- MUDOU DE NOVO */
-    width: 70%;  /* <-- MUDOU DE NOVO */
+    left: 15%;
+    width: 70%;
     height: 9%;
 }
 
 #link-maringa {
     top: 64%;
-    left: 15%;   /* <-- MUDOU DE NOVO */
-    width: 70%;  /* <-- MUDOU DE NOVO */
+    left: 15%;
+    width: 70%;
     height: 9%;
 }
 
 #link-cornelio {
     top: 75%;
-    left: 15%;   /* <-- MUDOU DE NOVO */
-    width: 70%;  /* <-- MUDOU DE NOVO */
+    left: 15%;
+    width: 70%;
     height: 9%;
 }
 
 #link-contato {
     top: 86%;
-    left: 15%;   /* <-- MUDOU DE NOVO */
-    width: 70%;  /* <-- MUDOU DE NOVO */
+    left: 15%;
+    width: 70%;
     height: 9%;
 }
