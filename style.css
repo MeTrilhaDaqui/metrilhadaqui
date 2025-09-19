@@ -37,8 +37,8 @@ body, html {
 }
 
 #link-maringa {
-    top: %; /* Ajustado para o botão "GRUPO MARINGÁ" */
-    left: 70%;
+    top: 70%; /* Ajustado para o botão "GRUPO MARINGÁ" */
+    left: 15%;
     width: 70%;
     height: 9%;
 }
@@ -51,6 +51,7 @@ body, html {
     width: 70%;
     height: 9%;
 }
+
 
 
 
