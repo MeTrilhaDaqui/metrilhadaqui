@@ -11,7 +11,8 @@ body, html {
     max-width: 600px; 
     height: auto;
     aspect-ratio: 1080 / 1920; 
-    background-image: url('background.png');
+    /* --- NOME DA IMAGEM DE FUNDO ATUALIZADO AQUI --- */
+    background-image: url('GRUPO LONDRINA.png'); 
     background-size: cover;
     background-position: center;
     position: relative;
@@ -26,32 +27,28 @@ body, html {
 }
 
 
-/* --- Versão Final do Posicionamento e Largura --- */
+/* --- Versão Final do Posicionamento e Largura (AJUSTADOS) --- */
 
 #link-londrina {
-    top: 53%;
+    top: 53%; /* Ajustado para o botão "GRUPO LONDRINA" */
     left: 15%;
     width: 70%;
     height: 9%;
 }
 
 #link-maringa {
-    top: 64%;
+    top: 64%; /* Ajustado para o botão "GRUPO MARINGÁ" */
     left: 15%;
     width: 70%;
     height: 9%;
 }
 
-#link-cornelio {
-    top: 75%;
-    left: 15%;
-    width: 70%;
-    height: 9%;
-}
+/* O #link-cornelio foi removido, pois o botão não existe mais no HTML */
 
 #link-contato {
-    top: 86%;
+    top: 75%; /* Ajustado para o botão "CONTATO" (agora na posição do antigo Cornélio) */
     left: 15%;
     width: 70%;
     height: 9%;
 }
+
