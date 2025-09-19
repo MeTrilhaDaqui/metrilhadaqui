@@ -30,14 +30,14 @@ body, html {
 /* --- Versão Final do Posicionamento e Largura (AJUSTADOS) --- */
 
 #link-londrina {
-    top: 52%; /* Ajustado para o botão "GRUPO LONDRINA" */
+    top: 57%; /* Ajustado para o botão "GRUPO LONDRINA" */
     left: 15%;
     width: 70%;
     height: 9%;
 }
 
 #link-maringa {
-    top: 65%; /* Ajustado para o botão "GRUPO MARINGÁ" */
+    top: 71%; /* Ajustado para o botão "GRUPO MARINGÁ" */
     left: 15%;
     width: 70%;
     height: 9%;
@@ -46,11 +46,12 @@ body, html {
 /* O #link-cornelio foi removido, pois o botão não existe mais no HTML */
 
 #link-contato {
-    top: 80%; /* Ajustado para o botão "CONTATO" (agora na posição do antigo Cornélio) */
+    top: 85%; /* Ajustado para o botão "CONTATO" (agora na posição do antigo Cornélio) */
     left: 15%;
     width: 70%;
     height: 9%;
 }
+
 
 
 
