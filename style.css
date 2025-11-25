@@ -10,9 +10,12 @@ body, html {
     width: 100%;
     max-width: 600px; 
     height: auto;
+    /* Mantém a proporção da imagem original (1080x1920) */
     aspect-ratio: 1080 / 1920; 
-    /* --- NOME DA IMAGEM DE FUNDO ATUALIZADO AQUI --- */
-    background-image: url('GRUPO LONDRINA.png'); 
+    
+    /* --- NOME DA IMAGEM DE FUNDO --- */
+    background-image: url('GRUPO LONDRINA (1).jpg'); 
+    
     background-size: cover;
     background-position: center;
     position: relative;
@@ -22,41 +25,54 @@ body, html {
 .link {
     position: absolute;
     display: block;
-    /* A linha abaixo foi "comentada" para remover as caixas vermelhas */
-    /* background-color: rgba(255, 0, 0, 0.4); */
+    
+    /* --- AJUSTE VISUAL --- */
+    /* Remova o "/*" da linha abaixo para ver os quadrados vermelhos e ajustar a posição */
+    /* background-color: rgba(255, 0, 0, 0.5); */
 }
 
 
-/* --- Versão Final do Posicionamento e Largura (AJUSTADOS) --- */
+/* --- Posicionamento dos 5 Botões --- */
 
+/* 1. Grupo Londrina */
 #link-londrina {
-    top: 57%; /* Ajustado para o botão "GRUPO LONDRINA" */
+    top: 45%; 
     left: 15%;
     width: 70%;
-    height: 9%;
+    height: 8%;
 }
 
+/* 2. Grupo Maringá */
 #link-maringa {
-    top: 70%; /* Ajustado para o botão "GRUPO MARINGÁ" */
+    top: 56%; 
     left: 15%;
     width: 70%;
-    height: 9%;
+    height: 8%;
 }
 
-/* O #link-cornelio foi removido, pois o botão não existe mais no HTML */
+/* 3. Formulário de Reserva */
+#link-reserva {
+    top: 67%;
+    left: 15%;
+    width: 70%;
+    height: 8%;
+}
 
+/* 4. Próximos Roteiros */
+#link-roteiros {
+    top: 78%;
+    left: 15%;
+    width: 70%;
+    height: 8%;
+}
+
+/* 5. Contato */
 #link-contato {
-    top: 83%; /* Ajustado para o botão "CONTATO" (agora na posição do antigo Cornélio) */
+    top: 89%; 
     left: 15%;
     width: 70%;
-    height: 9%;
+    height: 8%;
 }
-
-
-
-
-
-
 
 
 
