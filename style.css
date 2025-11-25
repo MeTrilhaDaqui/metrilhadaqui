@@ -29,9 +29,9 @@ body, html {
     display: block;
     
     /* --- MODO VISUALIZAÇÃO (Links Vermelhos) --- */
-    /* Remove isto depois de ajustares */
-    background-color: rgba(255, 0, 0, 0.5); 
-    border: 2px solid red; 
+    /* As linhas abaixo estão comentadas para deixar os links invisíveis */
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    /* border: 2px solid red; */
 }
 
 
